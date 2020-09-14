@@ -4,6 +4,7 @@ const path = require('path');
 const CONFIG = require('./config.json');
 
 
+
 const xlsxPath = path.join(CONFIG.baseDir, CONFIG.xlsxdir);
 
 
@@ -65,11 +66,11 @@ function convertXLSX2CSV(file) {
 function write2CSV(arr, file) {
 
     // create csv data
+
     let csvStr = "";
     for (let i = 1; i < arr.length; i++) {
         csvStr += arr[i].join(",") + "\n";
     }
-
     // create csv dir if not exists
     let csvFilePath = "";
     let csvDir = CONFIG.baseDir + CONFIG.csvdir + "/"
