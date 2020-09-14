@@ -1,0 +1,17 @@
+{
+  "baseDir": "/home/minhaz/Documents/Coding Problems/jsproblems/",
+  "xlsxdir": "xlsx-files",
+  "xmldir": "xml-files",
+  "csvdir": "csv-files",
+  "help": "--help",
+  "template_order": {
+    "data": [
+      "xml/order/items/child::item",
+      {
+        "order_id": "../../@id",
+        "item_id": "@id",
+        "item": "self::item"
+      }
+    ]
+  }
+}

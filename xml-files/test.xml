@@ -1,0 +1,17 @@
+<xml>
+  <order id="098976">
+     <items>
+       <item id="346723">Toothpaste</item>
+       <item id="346725">Soup</item>
+       <!-- more... -->
+     </items>
+  </order>
+  <order id="12345">
+     <items>
+       <item id="346726">Food</item>
+       <item id="346727">Gloves</item>
+       <!-- more... -->
+     </items>
+  </order>
+       <!-- more... -->
+</xml>
